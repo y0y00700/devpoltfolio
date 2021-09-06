@@ -17,6 +17,10 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Latest compiled JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -176,7 +180,7 @@
                     <div class="col-lg-4 col-sm-6">
                         <a class="portfolio-box" href="assets/img/portfolio/fullsize/1.jpg">
                             <img class="img-fluid" src="assets/img/portfolio/thumbnails/1.jpg" alt="..." />
-                            <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption" data-link='projectFile/buds/index.html'>
                                 <div class="project-category text-white-50">Web design</div>
                                 <div class="project-name">Samsung Galaxy buds<br>(Hybrid)</div>
                             </div>
@@ -247,7 +251,15 @@
                     <div class="col-lg-4 col-sm-6"><a href="#">Comming soon</a></div>
                 </div>
             </div>
-
+            <script>
+                // $(function(){
+                //     $(".no-gutters").on("click","a",function(e){
+                //         console.log("img 클릭됨");
+                //         //window.open($(this).data("link"),'_blank');
+                //         window.open($(this).attr("href"),'_blank');
+                //     });
+                // });
+            </script>
             </div>
             </div>
         </section>
